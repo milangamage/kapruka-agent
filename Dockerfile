@@ -6,6 +6,4 @@ RUN pip install --no-cache-dir fastapi uvicorn openai mcp python-dotenv httpx py
 
 COPY . .
 
-WORKDIR /app/backend
-
-CMD uvicorn main:app --host 0.0.0.0 --port $PORT
+CMD uvicorn main:app --app-dir /app/backend --host 0.0.0.0 --port $PORT
