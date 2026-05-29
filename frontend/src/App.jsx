@@ -4,7 +4,8 @@ import ReactMarkdown from 'react-markdown'
 import Dashboard from './Dashboard'
 import './App.css'
 
-const API_URL = 'http://localhost:8000/api/chat'
+// const API_URL = 'http://localhost:8000/api/chat'
+const API_URL = 'https://kapruka-agent-production.up.railway.app/api/chat'
 
 const WELCOME_MESSAGE = `Hello! I'm your Kapruka shopping assistant. I'm here to help you find the perfect product, check delivery to your city, and place your order — all in one conversation.
 
